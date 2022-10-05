@@ -45,25 +45,25 @@
                <section class="decision" >
              <div class="container"> 
               <h1 class="decision-info">Ефективні рішення для вашого бізнесу</h1>
-              <button class="decision-btr" type="button">Замовити послугу</button>
-              </div>
-             
+              <button class="decision-btr" type="button" data-modal-open>Замовити послугу</button>
+              <div class="modal" data-modal> 
+                <p> QQQQQ </p>
+                <button class="button-close" data-modal-close></button>
+                </div>
+            </div>
               </section>
               <section class="benefits">
-             <div class="container">
-             <ul class="benefits-icon-list list">
+              <div class="container">
+              <ul class="benefits-icon-list list">
                 <li class="benefits-icon-item">
                     <a class="benefits-icon-link" href="">
                         <svg class="benefits-icon-img"  width="65" height="70" >
-                            <use href="./images/symbol-defs.svg#icon-antenna" ></use>
-                        </svg>
-                    </a>
+                            <use href="./images/symbol-defs.svg#icon-antenna" ></use></svg></a>
                 </li>
                 <li class="benefits-icon-item">
                     <a class="benefits-icon-link" href="">
                         <svg class="benefits-icon-img"  width="65" height="70" >
-                            <use href="./images/symbol-defs.svg#icon-clock" ></use>
-                        </svg>
+                        <use href="./images/symbol-defs.svg#icon-clock" ></use></svg>
                     </a>
                 </li>
                 <li class="benefits-icon-item">
@@ -98,9 +98,19 @@
                <div class="container">
                <h2 class="about-top">Чим ми займаємося</h2>
                <ul class="about-list">
-              <li class="about-img1 list"><img src="./images/about-img1.jpg" alt="Робоче місце" width="370" height="294"></li>
-              <li class="about-img2 list"><img src="./images/about-img2.jpg" alt="Робоче місце" width="370" height="294"></li>
-              <li class="about-img3 list"><img src="./images/about-img3.jpg" alt="Робоче місце" width="370" height="294"></li>
+              <li class="about-img1 list">
+                <div class="about-img-box"><p class="about-img-title">  Десктопні додатки</p></div>
+                <img src="./images/about-img1.jpg" alt="Робоче місце" width="370" height="294"></li>
+              
+                <li class="about-img2 list">
+                <div class="about-img-box"><p class="about-img-title">  Мобільні додатки</p></div>
+                
+                <img src="./images/about-img2.jpg" alt="Робоче місце" width="370" height="294"></li>
+              <li class="about-img3 list">
+                <div class="about-img-box">
+                    <p class="about-img-title">  Дизайнерські рішення</p>
+                </div>
+                <img src="./images/about-img3.jpg" alt="Робоче місце" width="370" height="294"></li>
               </ul>
                 </div>
               </section>
@@ -256,7 +266,7 @@
               </ul>
               </div>
                </section>   
-       
+  <script src="./js/modal.js"></script>      
 </body>
 
 
